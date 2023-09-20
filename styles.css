@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.tic {
+    color: yellowgreen;
+    font-size: 100px;
+    text-align: center;
+}
+
+.container {
+    padding: 0 20px;
+    background-color: beige;
+    
+}
+
+.announcement {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+    height: 454px;
+    width: 454px;
+    border: 2px solid black;
+    margin: 0px auto;
+    
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+    text-align: center;   
+}
+
+.square:hover {
+    background-color: black;
+    color: yellowgreen;
+}
+
+.resbut {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.reset {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.reset:hover {
+    background-color: black;
+    color: yellowgreen;
+}
